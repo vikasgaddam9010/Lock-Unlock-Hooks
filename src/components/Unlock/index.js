@@ -2,7 +2,7 @@ import {MainContainer, Img, Heading, Button} from './styledComponents'
 import {useState} from 'react'
 
 const Unlock = () => {
-  const [lockState, setLockState] = useState(false)
+  const [lockState, setLockState] = useState(true)
 
   const btnClicked = () => {
     setLockState(prevState => !prevState)
