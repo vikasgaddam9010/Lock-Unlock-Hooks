@@ -20,9 +20,9 @@ width: 150px;
 export const Heading = styled.p`
 margin-bottom: 150px;
 font-size: 25px;
+font-family: ${props => props.isTrue && 'Roboto'};
 @media(max-width: 576px){
     margin-bottom: 50px;
-    
 }
 `
 
