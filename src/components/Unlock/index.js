@@ -21,7 +21,7 @@ const Unlock = () => {
   return (
     <MainContainer>
       <Img alt={imgAlt} src={lockImg} />
-      <Heading>{paraElement}</Heading>
+      <Heading isTrue={lockState}>{paraElement}</Heading>
       <Button type="bttuon" onClick={btnClicked}>
         {btnText}
       </Button>
