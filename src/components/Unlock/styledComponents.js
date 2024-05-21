@@ -17,11 +17,12 @@ export const Img = styled.img`
 width: 150px;
 `
 
-export const Heading = styled.h1`
+export const Heading = styled.p`
 margin-bottom: 150px;
+font-size: 25px;
 @media(max-width: 576px){
     margin-bottom: 50px;
-    font-size: 25px;
+    
 }
 `
 
