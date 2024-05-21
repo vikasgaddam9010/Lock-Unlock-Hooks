@@ -26,13 +26,18 @@ font-size: 25px;
 }
 `
 
+
 export const Button = styled.button`
 background-color:#06b6d4;
 border: none;
 border-radius: 10px;
 color: #e2e8f0;
 font-weight: bold;
-padding: 15px;
+padding: 5px;
 padding-left: 29px;
 padding-right: 29px;
+cursor: pointer;
+`
+export const Para = styled.p`
+font-family: Roboto;
 `
